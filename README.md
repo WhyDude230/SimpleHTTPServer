@@ -4,7 +4,7 @@ this server takes GET, POST request and read, write from or to a file, for this 
 
 ## to compile the project
 ```bash
-as -o asm.o level14.s && ld -o server asm.o
+as -o asm.o server.s && ld -o server asm.o
 ```
 
 ## run the server
